@@ -1,0 +1,12 @@
+User 01 : larvel01@gmail.com senha:senha123
+
+
+
+
+
+
+
+Duvidas:
+$espaco->update($request->all());
+edit.blade.php
+    <form action="{{ route('espacos.store') }}" method="POST">

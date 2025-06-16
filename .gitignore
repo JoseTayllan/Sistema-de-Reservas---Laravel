@@ -1,0 +1,68 @@
+*.log
+.DS_Store
+.env
+.env.backup
+.env.production
+.phpactor.json
+.phpunit.result.cache
+/.fleet
+/.idea
+/.nova
+/.phpunit.cache
+/.vscode
+/.zed
+/auth.json
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/vendor
+Homestead.json
+Homestead.yaml
+Thumbs.db
+.anotações
+# Arquivos do Laravel que não devem ser versionados
+/storage/app/public
+/storage/debugbar
+/storage/framework/cache/data
+/storage/framework/sessions
+/storage/framework/views
+/storage/logs
+
+# Build frontend gerado pelo Vite
+/public/mix-manifest.json
+/public/assets
+/public/js
+/public/css
+
+# Cache do Laravel Telescope (se vier a usar)
+/storage/telescope
+
+# Cache do Laravel IDE Helper (caso venha a usar futuramente)
+/_ide_helper.php
+/_ide_helper_models.php
+
+# Arquivos temporários comuns
+*.sqlite
+*.sqlite3
+*.log
+*.pid
+*.seed
+
+# IDEs e ferramentas específicas (VSCode já incluso, acrescente se usar JetBrains)
+/.idea/*
+/.fleet/*
+
+# Node e composer
+/node_modules/
+/vendor/
+
+# Pastas de compilação e cache do Vite
+/public/hot
+/public/build
+/.vite
+
+# Arquivos pessoais/anotações locais
+.anotações
